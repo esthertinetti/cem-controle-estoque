@@ -9,7 +9,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/cem-controle-estoque/', // MUITO IMPORTANTE
+  base: '/', // MUITO IMPORTANTE
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
