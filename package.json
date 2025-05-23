@@ -6,7 +6,7 @@
   "homepage": "https://esthertinetti.github.io/cem-controle-estoque/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --outDir docs",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",

@@ -3,7 +3,7 @@ import Routes from './routes';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/cem-controle-estoque">
       <Routes />
     </BrowserRouter>
   )
