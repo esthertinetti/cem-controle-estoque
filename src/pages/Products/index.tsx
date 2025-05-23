@@ -7,7 +7,7 @@ function Massas() {
         <div className="md:flex w-screen h-screen">
             <MenuDesktop />
             <SidebarMobile />
-            <main className="w-full h-full overflow-y-auto relative">
+            <main className="w-full h-full overflow-y-auto relative bg-blue-50">
                 <Header title="Massas" />
             </main>
         </div>

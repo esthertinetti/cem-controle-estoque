@@ -15,10 +15,10 @@ const Routes: React.FC = () => {
     return (
         <UserContext.Provider value={{ user, setUser }}>
             <Router>
-                <Route path="/cem-controle-estoque/" element={<Login /> }/>
-                <Route path="/cem-controle-estoque/home" element={<Home />} />
-                <Route path="/cem-controle-estoque/insumos" element={<Insumos />} />
-                <Route path="/cem-controle-estoque/massas" element={<Massas />} />
+                <Route path="/" element={<Login /> }/>
+                <Route path="/home" element={<Home />} />
+                <Route path="/insumos" element={<Insumos />} />
+                <Route path="/massas" element={<Massas />} />
             </Router>
         </UserContext.Provider>
     )

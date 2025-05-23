@@ -8,7 +8,7 @@ interface HeaderTitles {
 
 function Header ({title} : HeaderTitles) {
     return (
-        <header className="z-10 top-0 sticky md:relative bg-white flex justify-between items-center p-2 lg:p-3 xl:p-6 md:pb-4 shadow-md">
+        <header className="z-10 top-0 right-0 sticky bg-white flex justify-between items-center p-2 lg:p-3 xl:p-6 md:pb-4 shadow-md">
             <div className="block md:hidden">
                 <SidebarMobile />
             </div>

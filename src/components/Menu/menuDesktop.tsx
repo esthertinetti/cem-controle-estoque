@@ -28,7 +28,7 @@ function MenuDesktop() {
     ];
 
     return (
-        <div className='hidden md:flex p-10 pt-4 max-w-96 w-full h-full flex-col items-center justify-between overflow-y-auto bg-[#005BE5]'>
+        <div className='hidden md:flex p-10 pt-4 max-w-80 w-full h-full flex-col items-center justify-between overflow-y-auto bg-[#005BE5]'>
             <nav className='mt-4 w-full'>
                 <div className="h-44 flex">
                     <img src={Logo} alt="Logo CEM" className="m-auto"/>
