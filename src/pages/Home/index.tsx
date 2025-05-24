@@ -63,7 +63,7 @@ function Home () {
             <main className="w-full h-full overflow-y-auto relative bg-blue-50">
                 <Header title="Dashboard" />
 
-                <div className="w-full p-12 flex flex-wrap justify-between">
+                <div className="w-full p-5 md:p-12 flex flex-wrap justify-between">
                     <div className="bg-white w-full shadow-md rounded-lg lg:max-w-[calc(50%-12px)] p-6">
                         <p className="font-semibold text-xl text-[#05004E] leading-7 mb-5">Insumos</p>
                         <ul className="flex flex-wrap justify-between gap-6">

@@ -27,6 +27,8 @@ function Massas() {
                 <ListTable 
                     data={massas} 
                     title={titulos}
+                    titleInput="Descrição do peso"
+                    moreQtd={false}
                 />
             </main>
         </div>

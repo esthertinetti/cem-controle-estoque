@@ -13,7 +13,7 @@ function Insumos() {
     ]
 
     const titulos = [
-        {titulo: "Código",    estilo: "text-center"   },
+        {titulo: "Código",    estilo: "text-center" },
         {titulo: "Descrição", estilo: "text-left"   },
         {titulo: "Unidade"  , estilo: "text-left"   },
         {titulo: "Estoque"  , estilo: "text-center" },
@@ -30,6 +30,8 @@ function Insumos() {
                 <ListTable 
                     data={insumos} 
                     title={titulos}
+                    titleInput="Descrição da unidade"
+                    moreQtd={true}
                 />
             </main>
         </div>
