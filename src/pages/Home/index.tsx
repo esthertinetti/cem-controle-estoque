@@ -67,98 +67,100 @@ function Home () {
                     <div className="bg-white w-full shadow-md rounded-lg lg:max-w-[calc(50%-12px)] p-6">
                         <p className="font-semibold text-xl text-[#05004E] leading-7 mb-5">Insumos</p>
                         <ul className="flex flex-wrap justify-between gap-6">
-                            <li className="bg-red-600 text-white text-center p-4 rounded-lg max-w-[30%] w-full">
+                            <li className="bg-red-600 text-white text-center p-4 rounded-lg max-w-full md:max-w-[45%] 2xl:max-w-[30%] w-full">
                                 <p className="font-medium text-base min-h-12 flex items-center justify-center">Sal - Cada pacote com 1Kg</p>
                                 <p className="my-2.5 text-2xl md:text-3xl lg:text-5xl"><strong>2</strong></p>
-                                <p className="text-base">Estoque ideal: <strong>10</strong></p>
+                                <p className="text-base min-h-12">Estoque ideal: <strong>10</strong></p>
                             </li>
-                            <li className="bg-red-600 text-white text-center p-4 rounded-lg max-w-[30%] w-full">
+                            <li className="bg-red-600 text-white text-center p-4 rounded-lg max-w-full md:max-w-[45%] 2xl:max-w-[30%] w-full">
                                 <p className="font-medium text-base min-h-12 flex items-center justify-center">Plástico</p>
                                 <p className="my-2.5 text-2xl md:text-3xl lg:text-5xl"><strong>1</strong></p>
-                                <p className="text-base">Estoque ideal: <strong>3</strong></p>
+                                <p className="text-base min-h-12">Estoque ideal: <strong>3</strong></p>
                             </li>
-                            <li className="bg-[#F5B80E] text-white text-center p-4 rounded-lg max-w-[30%] w-full">
+                            <li className="bg-[#F5B80E] text-white text-center p-4 rounded-lg max-w-full md:max-w-[45%] 2xl:max-w-[30%] w-full">
                                 <p className="font-medium text-base min-h-12 flex items-center justify-center">Óleo Vegetal</p>
                                 <p className="my-2.5 text-2xl md:text-3xl lg:text-5xl"><strong>10</strong></p>
-                                <p className="text-base">Estoque ideal: <strong>3</strong></p>
+                                <p className="text-base min-h-12">Estoque ideal: <strong>3</strong></p>
                             </li>
-                            <li className="bg-[#F5B80E] text-white text-center p-4 rounded-lg max-w-[30%] w-full">
+                            <li className="bg-[#F5B80E] text-white text-center p-4 rounded-lg max-w-full md:max-w-[45%] 2xl:max-w-[30%] w-full">
                                 <p className="font-medium text-base min-h-12 flex items-center justify-center">Conservante</p>
                                 <p className="my-2.5 text-2xl md:text-3xl lg:text-5xl"><strong>13</strong></p>
-                                <p className="text-base">Estoque ideal: <strong>25</strong></p>
+                                <p className="text-base min-h-12">Estoque ideal: <strong>25</strong></p>
                             </li>
-                            <li className="bg-[#00CC00] text-white text-center p-4 rounded-lg max-w-[30%] w-full">
+                            <li className="bg-[#00CC00] text-white text-center p-4 rounded-lg max-w-full md:max-w-[45%] 2xl:max-w-[30%] w-full">
                                 <p className="font-medium text-base min-h-12 flex items-center justify-center">Farinha de Trigo</p>
                                 <p className="my-2.5 text-2xl md:text-3xl lg:text-5xl"><strong>45</strong></p>
-                                <p className="text-base">Estoque ideal: <strong>45</strong></p>
+                                <p className="text-base min-h-12">Estoque ideal: <strong>45</strong></p>
                             </li>
-                            <li className="bg-[#00CC00] text-white text-center p-4 rounded-lg max-w-[30%] w-full">
+                            <li className="bg-[#00CC00] text-white text-center p-4 rounded-lg max-w-full md:max-w-[45%] 2xl:max-w-[30%] w-full">
                                 <p className="font-medium text-base min-h-12 flex items-center justify-center">Rótulos</p>
                                 <p className="my-2.5 text-2xl md:text-3xl lg:text-5xl"><strong>8</strong></p>
-                                <p className="text-base">Estoque ideal: <strong>10</strong></p>
+                                <p className="text-base min-h-12">Estoque ideal: <strong>10</strong></p>
                             </li>
                         </ul>
                     </div>
-                    <div className="bg-white w-full shadow-md rounded-lg lg:max-w-[calc(50%-12px)] p-6">
+                    <div className="bg-white w-full shadow-md rounded-lg lg:max-w-[calc(50%-12px)] p-6 lg:mt-0 mt-6">
                         <p className="font-semibold text-xl text-[#05004E] leading-7 mb-5">Massas</p>
                         <ul className="flex flex-wrap justify-between gap-6">
-                            <li className="bg-[#005BE5] text-white text-center p-4 rounded-lg max-w-[30%] w-full">
+                            <li className="bg-[#005BE5] text-white text-center p-4 rounded-lg max-w-full md:max-w-[45%] 2xl:max-w-[30%] w-full">
                                 <p className="font-medium text-base min-h-12 flex items-center justify-center">Massa</p>
                                 <p className="my-2.5 text-2xl md:text-3xl lg:text-5xl"><strong>45</strong></p>
-                                <p className="text-base">500g</p>
+                                <p className="text-base min-h-12 flex items-center justify-center">500g</p>
                             </li>
-                            <li className="bg-[#005BE5] text-white text-center p-4 rounded-lg max-w-[30%] w-full">
+                            <li className="bg-[#005BE5] text-white text-center p-4 rounded-lg max-w-full md:max-w-[45%] 2xl:max-w-[30%] w-full">
                                 <p className="font-medium text-base min-h-12 flex items-center justify-center">Massa - Pastelaria</p>
                                 <p className="my-2.5 text-2xl md:text-3xl lg:text-5xl"><strong>38</strong></p>
-                                <p className="text-base">1Kg</p>
+                                <p className="text-base min-h-12 flex items-center justify-center">1Kg</p>
                             </li>
-                            <li className="bg-[#005BE5] text-white text-center p-4 rounded-lg max-w-[30%] w-full">
+                            <li className="bg-[#005BE5] text-white text-center p-4 rounded-lg max-w-full md:max-w-[45%] 2xl:max-w-[30%] w-full">
                                 <p className="font-medium text-base min-h-12 flex items-center justify-center">Óleo Vegetal</p>
                                 <p className="my-2.5 text-2xl md:text-3xl lg:text-5xl"><strong>17</strong></p>
-                                <p className="text-base">1Kg</p>
+                                <p className="text-base min-h-12 flex items-center justify-center">1Kg</p>
                             </li>
-                            <li className="bg-[#005BE5] text-white text-center p-4 rounded-lg max-w-[30%] w-full">
+                            <li className="bg-[#005BE5] text-white text-center p-4 rounded-lg max-w-full md:max-w-[45%] 2xl:max-w-[30%] w-full">
                                 <p className="font-medium text-base min-h-12 flex items-center justify-center">Conservante</p>
                                 <p className="my-2.5 text-2xl md:text-3xl lg:text-5xl"><strong>23</strong></p>
-                                <p className="text-base">500g</p>
+                                <p className="text-base min-h-12 flex items-center justify-center">500g</p>
                             </li>
-                            <li className="bg-[#005BE5] text-white text-center p-4 rounded-lg max-w-[30%] w-full">
+                            <li className="bg-[#005BE5] text-white text-center p-4 rounded-lg max-w-full md:max-w-[45%] 2xl:max-w-[30%] w-full">
                                 <p className="font-medium text-base min-h-12 flex items-center justify-center">Farinha de Trigo</p>
                                 <p className="my-2.5 text-2xl md:text-3xl lg:text-5xl"><strong>36</strong></p>
-                                <p className="text-base">400g</p>
+                                <p className="text-base min-h-12 flex items-center justify-center">400g</p>
                             </li>
-                            <li className="text-white text-center p-4 rounded-lg max-w-[30%] w-full"></li>
+                            <li className="text-white text-center p-4 rounded-lg max-w-full md:max-w-[45%] 2xl:max-w-[30%] w-full"></li>
                         </ul>
                     </div>
                     <div className="bg-white w-full h-auto shadow-md rounded-lg mt-6 p-6">
                         <p className="font-semibold text-xl text-[#05004E] leading-7 mb-6">Totalização - 6 meses</p>
-                        <div className="flex justify-between">
-                            <div className="block h-full w-full">
+                        <div className="flex justify-between flex-wrap xl:flex-nowrap">
+                            <div className="block h-full w-full xl:max-w-auto lg:max-w-[30%] md:max-w-[50%] max-w-full xl:mb-0 mb-5">
                                 <p className="text-center mb-2 text-base font-semibold leading-5 text-[#0A2186]" >Massa 500g</p>
                                 <Chart 
                                     chartType="ColumnChart" height="100%" data={data} options={{legend: "" ,}}
                                 />
                             </div>
 
-                            <div className="block h-full w-full">
+                            <div className="block h-full w-full xl:max-w-auto lg:max-w-[30%] md:max-w-[50%] max-w-full xl:mb-0 mb-5">
                                 <p className="text-center mb-2 text-base font-semibold leading-5 text-[#0A2186]" >Massa - Pastelaria 1Kg</p>
                                 <Chart chartType="ColumnChart" height="100%" data={data1}  />
                             </div>
 
-                            <div className="block h-full w-full">
+                            <div className="block h-full w-full xl:max-w-auto lg:max-w-[30%] md:max-w-[50%] max-w-full xl:mb-0 mb-5">
                                 <p className="text-center mb-2 text-base font-semibold leading-5 text-[#0A2186]" >Massa - Mercado 1Kg</p>
                                 <Chart chartType="ColumnChart" height="100%" data={data2}  />
                             </div>
 
-                            <div className="block h-full w-full">
+                            <div className="block h-full w-full xl:max-w-auto lg:max-w-[30%] md:max-w-[50%] max-w-full xl:mb-0 mb-5">
                                 <p className="text-center mb-2 text-base font-semibold leading-5 text-[#0A2186]" >Lazanha 500g</p>
                                 <Chart chartType="ColumnChart" height="100%" data={data3}  />
                             </div>
 
-                            <div className="block h-full w-full">
+                            <div className="block h-full w-full xl:max-w-auto lg:max-w-[30%] md:max-w-[50%] max-w-full xl:mb-0 mb-5">
                                 <p className="text-center mb-2 text-base font-semibold leading-5 text-[#0A2186]" >Disco 400g</p>
                                 <Chart chartType="ColumnChart" height="100%" data={data4}  />
                             </div>
+
+                            <div className="block xl:hidden lg:max-w-[30%] md:max-w-[50%] max-w-full w-full"></div>
                         </div>
                     </div>
                 </div>
