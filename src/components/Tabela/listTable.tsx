@@ -2,6 +2,7 @@ import { Edit, Plus, Trash2 } from "lucide-react"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "../ui/table"
 import { Button } from "../ui/button"
 import ModalProduct from "../Modal/modalProduct";
+import ModalDelete from "../Modal/modalDelete";
 
 type TituloTabela = {
     titulo: string;
@@ -103,9 +104,14 @@ function ListTable ({data, title, titleInput, moreQtd}: Props) {
                                 />
                             </TableCell>
                             <TableCell className="lg:table-cell text-center text-base text-gray-900">
-                                <Button className="bg-transparent hover:bg-transparent shadow-none [&_svg]:size-6">
-                                    <Trash2 color="#DB0F0F" strokeWidth={2.5} />
-                                </Button>
+                                <ModalDelete 
+                                    nameFile={item.descricao}
+                                    trigger={
+                                        <Button className="bg-transparent hover:bg-transparent shadow-none [&_svg]:size-6">
+                                            <Trash2 color="#DB0F0F" strokeWidth={2.5} />
+                                        </Button>
+                                    }
+                                />
                             </TableCell>
                         </TableRow>
                     ))}
